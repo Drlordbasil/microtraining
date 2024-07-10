@@ -1,0 +1,13 @@
+2024-07-09 15:32:55,868 - DataManager - INFO - Initializing DataManager with dataset URL: https://huggingface.co/datasets/BAAI/Infinity-Instruct/resolve/main/3M/train.jsonl
+2024-07-09 15:32:55,871 - DataManager - INFO - Created cache directory: .cache
+2024-07-09 15:32:55,871 - DataManager - INFO - Loading dataset from URL: https://huggingface.co/datasets/BAAI/Infinity-Instruct/resolve/main/3M/train.jsonl
+2024-07-09 15:45:45,751 - DataManager - INFO - Dataset loaded. Total entries: 3463470
+2024-07-09 15:46:10,660 - DataManager - INFO - Dataset cached to .cache\dataset_cache.json
+2024-07-09 15:46:10,660 - DataManager - INFO - Preparing data with sample_fraction=0.001, test_size=0.2
+2024-07-09 15:46:10,672 - DataManager - INFO - Data prepared. Training set size: 2770, Test set size: 693
+2024-07-09 15:46:10,672 - DataManager - INFO - Data stats: {'total_dataset_size': 3463470, 'train_data_size': 2770, 'test_data_size': 693}
+2024-07-09 15:46:10,672 - DataManager - INFO - Added 1 new sentence(s) to training data. New training data size: 2771
+2024-07-09 15:46:10,672 - DataManager - INFO - Added 1 new sentence(s) to test data. New test data size: 694
+2024-07-09 15:46:10,673 - DataManager - INFO - Data stats: {'total_dataset_size': 3463470, 'train_data_size': 2771, 'test_data_size': 694}
+2024-07-09 15:46:10,679 - DataManager - INFO - Data saved to sample_train_data.txt
+2024-07-09 15:46:10,696 - DataManager - INFO - Data loaded from sample_train_data.txt
